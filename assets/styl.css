@@ -1,13 +1,12 @@
-div.top {} 
-.top h1 {
+section #top {} 
+#top h1 {
     color: #101010;
     font-size: xx-large;
     padding-left: 60px;
-    
     margin-bottom: 5px;
     height: 12px;
 }
-div.top a {
+#top a {
     margin-left: 375px; 
     color: black;
     font-weight: bolder;
@@ -207,24 +206,24 @@ div.categories {
 .camera h2 a {
     text-decoration: none;
 }
-div.toop {
+section #toop {
     margin-left: 65px;
 }
-.toop h5 {
+#toop h5 {
     margin-top: -92px;
     color: grey;
 }
-.toop h6 {
+#toop h6 {
     margin-left: 126px;
     margin-top: -48px;
     font-size: 17px;
 }
-.toop img {
+#toop img {
     margin-top: 100px;
     margin-left: 107px;
     width: 239px;
 }
-div.class {
+section #class {
     margin-left: 645px;
     margin-top: -267px;
 }
@@ -274,20 +273,20 @@ div.srt {
     font-size: 20px;
     margin-top: -56px;
 }
-div.middle {
+section #middle {
     margin-left: 653px;
     margin-top: -25px;
 }
-.middle p {
+#middle p {
     font-weight: 600;
 }
-.middle h6 {
+#middle h6 {
 
 }
-div.mid {
+section #mid {
     margin-left: -4px;
 }
-.mid p {
+#mid p {
     font-size: 22px;
     margin-left: 662px;
     margin-top: -15px;
@@ -315,60 +314,71 @@ div.red {
     padding-left: 3px;
     color: rgb(255, 102, 0);
 }
-div.delivery {
+section #delivery {
     border-radius: 5px;
     margin-top: -7px;
     margin-left: 668px;
     border-style: groove;
     margin-right: 90px;
 }
-.delivery img {
+#delivery img {
     background-color: black;
     margin-top: 32px;
     margin-left: 25px;
 }
-.delivery h4 {
+#delivery h4 {
     margin-top: -56px;
     margin-left: 80px;
 }
-.delivery p {
+#delivery p {
     margin-top: -15px;
     margin-left: 82px;
     text-decoration-line: underline;
 }
-div.return {
+section #return {
     border-radius: 5px;
     margin-top: -3px;
     margin-left: 668px;
     border-style: groove;
     margin-right: 90px;
 }
-.return img {
+#return img {
     margin-top: 27px;
     margin-left: 25px;
 }
-.return h4 {
+#return h4 {
     margin-top: -54px;
     margin-left: 80px;
 }
-.return p {
+#return p {
     margin-top: -15px;
     margin-left: 82px;
 }
-.return h5 {
+#return h5 {
     text-decoration: underline;
     font-size: medium;
     margin-top: -43px;
     margin-left: 345px;
 }
-div.item {
-
+section #items {
+    margin-top: 160px;
 }
-.item h5 {
-
+#items h3 {
+    height: 37px;
+    margin-right: 1037px;
+    background-color: red;
+    margin-left: 53px;
+    color: red;
+    width: 18px;
+    border-radius: 5px;
 }
-
-div.buy {
+#items h5 {
+    margin-left: 84px;
+    margin-top: -52px;
+    font-size: 21px;
+    color: red;
+}
+section #buy {
     margin-top: 145px;
     margin-left: 25px;
 }
@@ -764,14 +774,14 @@ div.items {
 }
 
 
-div.footer {
+section #footer {
     background-color: black;
     color: white;
     margin-top: 127px;
     padding-top: 1px;
     height: 390px;
 }
-.footer .excl {
+#footer .excl {
     margin-left: 100px;
     margin-top: 55px;
     margin-bottom: -34px;
@@ -806,6 +816,7 @@ div.sub {
 }
 .sub h1 {
     font-size: 31px;
+    margin-top: 22px;
 }
 div.sup {
     margin-left: -1px;
@@ -831,13 +842,13 @@ div.sup {
 
 div.act {
     margin-left: 537px;
-    margin-top: -222px;
+    margin-top: -235px;
 }
 div.count {
 
 }
 .count h1 {
-
+    font-size: 31px;
 }
 .act h2 {
     font-weight: 100;
@@ -884,17 +895,18 @@ div.count {
 }
 div.link {
     margin-left: 671px;
-    margin-top: -302px;
+    margin-top: -313px;
 }
 div.quick {
 
 }
 .quick h1 {
-
+    font-size: 31px;
 }
 .link h2 {
     font-weight: 100;
     font-size: 20px;
+    padding-left: 7px;
 }
 .link h2 a {
     text-decoration: none;
@@ -903,6 +915,7 @@ div.quick {
 .link h3{
     font-weight: 100;
     font-size: 20px;
+    padding-left: 7px;
 }
 .link h3 a {
     text-decoration: none;
@@ -912,13 +925,14 @@ div.quick {
     font-weight: 100;
     font-size: 20px;
     margin-top: 24px;
+    padding-left: 7px;
 } 
 .link h4 a {
     text-decoration: none;
     color: white;
 }
 .link h5 {
-
+    padding-left: 7px;
 }
 .link h5 a {
     text-decoration: none;
@@ -926,10 +940,10 @@ div.quick {
 }
 div.app {
     margin-left: 850px;
-    margin-top: -248px;
+    margin-top: -259px;
 }
 .app h1 {
-
+    font-size: 31px;
 }
 .app p {
     font-size: 17px;
@@ -957,14 +971,14 @@ div.store {
     margin-left: 940px;
     margin-top: -113px;
 }
-div.back {
+section #back {
     margin-right: 597px;
     background-color: black;
     margin-left: 593px;
     margin-top: 21px;
     height: 30px;
 }
-.back a {
+#back a {
     padding-left: 7px;
     color: white;
     border-style: groove;

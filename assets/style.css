@@ -579,7 +579,7 @@ div.footer {
 }
 div.sub {
     margin-left: 326px;
-    margin-top: -212px;
+    margin-top: -218px;
     margin-bottom: -34px;
 }
 .sub h1 {
@@ -673,6 +673,7 @@ div.quick {
 .link h2 {
     font-weight: 100;
     font-size: 20px;
+    margin-left: 5px;
 }
 .link h2 a {
     text-decoration: none;
@@ -681,6 +682,7 @@ div.quick {
 .link h3{
     font-weight: 100;
     font-size: 20px;
+    margin-left: 5px;
 }
 .link h3 a {
     text-decoration: none;
@@ -690,13 +692,14 @@ div.quick {
     font-weight: 100;
     font-size: 20px;
     margin-top: 24px;
+    margin-left: 5px;
 } 
 .link h4 a {
     text-decoration: none;
     color: white;
 }
 .link h5 {
-
+    margin-left: 5px;
 }
 .link h5 a {
     text-decoration: none;
